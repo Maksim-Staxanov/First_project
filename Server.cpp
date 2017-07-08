@@ -13,8 +13,8 @@ private:
     int s;// Основной сокет
     sockaddr_in *server_addr, *client_addr;//Адреса сервера и клиента
     int rc;//Переменная под проверку на ошибки
-    int s_worker;//Клиент
-    string hello;//Переменная под основную надпись на экране
+    int s_worker;
+    string hello;
     int Shifr;// Переменная, отвечающая за выбор шифра
     char * shift;
     void Hello();// Вывод приветственного сообщения
